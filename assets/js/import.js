@@ -20,14 +20,14 @@ async function importHTML(url, containerId) {
 }
 
 const htmlData = [
-  { url: '../../../assets/SONY/games_psp.html', containerId: 'psp-content' },
-  { url: '../../../assets/SONY/games_ps1.html', containerId: 'ps1-content' },
-  { url: '../../../assets/SONY/games_ps2.html', containerId: 'ps2-content' },
-  { url: '../../../assets/SONY/games_ps3.html', containerId: 'ps3-content' },
+  { url: '../../assets/SONY/games_psp.html', containerId: 'psp-content' },
+  { url: '../../assets/SONY/games_ps1.html', containerId: 'ps1-content' },
+  { url: '../../assets/SONY/games_ps2.html', containerId: 'ps2-content' },
+  { url: '../../assets/SONY/games_ps3.html', containerId: 'ps3-content' },
 
-  { url: '../../../assets/NINTENDO/games_gb.html', containerId: 'gb-content' },
-  { url: '../../../assets/NINTENDO/games_nds.html', containerId: 'nds-content' },
-  { url: '../../../assets/NINTENDO/games_switch.html', containerId: 'switch-content' }
+  { url: '../../assets/NINTENDO/games_gb.html', containerId: 'gb-content' },
+  { url: '../../assets/NINTENDO/games_nds.html', containerId: 'nds-content' },
+  { url: '../../assets/NINTENDO/games_switch.html', containerId: 'switch-content' }
 ];
 
 //Import each HTML file into its own div
